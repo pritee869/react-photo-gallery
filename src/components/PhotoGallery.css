@@ -1,0 +1,21 @@
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .photo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
